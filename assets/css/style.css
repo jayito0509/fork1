@@ -1,0 +1,15 @@
+.style-navbar div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-present{
+    color: aliceblue;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
