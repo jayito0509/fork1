@@ -16,8 +16,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    
 }
 
+.icono {
+    color: aliceblue;
+}
 .style-about{
     color: aliceblue;
     text-align: center;
@@ -54,3 +59,7 @@ body {
     width: 50px;
 }
 
+.style-portafolio img{
+    height: 300px;
+    width: 320px;
+}
