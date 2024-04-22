@@ -1,12 +1,20 @@
 
 body {
     color: aliceblue;
+    font-family: 'Space Grotesk';
+    font-size: light;
+    
+}
+
+.style-navbar{
+    background-color: rgb(24, 24, 24);
 }
 
 .style-navbar div{
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -23,13 +31,15 @@ body {
 .icono {
     color: aliceblue;
 }
+
+
 .style-about{
     color: aliceblue;
     text-align: center;
 }
 
 .style-card {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(24, 24, 24);
     height: 150px;
     width: 150px;
     text-align: center;
@@ -44,7 +54,7 @@ body {
 
 .style-experience{
     
-    background-color:rgb(70, 70, 70) ;
+    background-color:rgb(24, 24, 24) ;
 }
 
 .experience {
@@ -62,4 +72,36 @@ body {
 .style-portafolio img{
     height: 300px;
     width: 320px;
+    opacity: 75%;
+}
+
+.style-vineta {
+    color: rgb(208, 255, 37);
+}
+
+.style-border {
+    width: 500px;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    border: thin inset rgb(208, 255, 37);
+    
+}
+
+.style-card-contact {
+    background-color: rgb(24, 24, 24);
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    border: thin inset rgb(208, 255, 37);
+}
+
+.style-card i{
+    height: 60px;
+    width: 60px;
+}
+
+.style-footer {
+    background-color: rgb(24, 24, 24);
 }
