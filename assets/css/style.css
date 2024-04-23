@@ -69,10 +69,10 @@ body {
     width: 50px;
 }
 
-.style-portafolio img{
-    height: 300px;
-    width: 320px;
-    opacity: 75%;
+.style-portafolio{
+    max-width: 600px; 
+    max-height: 400px;
+   
 }
 
 .style-vineta {

@@ -15,6 +15,10 @@
 <body class="bg-dark">
     <!--Navbar de la pagina-->
     <nav class="navbar navbar-expand-lg navbar-dark  style-navbar">
+      <div class="container-fluid mx-4">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item mx-3">
@@ -28,10 +32,11 @@
               </li>
             </ul>
         </div>
+      </div>  
     </nav>
 
     <!--Presentación-->
-    <div class="style-present">
+    <div class="style-present container-fluid">
         <div style="text-align: center; align-self: center;">
             <h1><span>I'm</span><strong class="ms-3" style="color: rgb(208, 255, 37)">Jorge Aranda</strong></h1>
             <h4 class="pb-3">Electronic Engineer and Web Developer Student</h4>
@@ -56,8 +61,8 @@
       <h2>My Skills</h2>
    
     </div>
-    <div class="container-fluid texto-light px-4 mt-0 mb-5">
-      <div class="row mx-2 gx-4 gy-1 mt-1 justify-content-center">
+    <!-- <div class="container-fluid texto-light px-4 mt-0 mb-5">
+      <div class="row mx-2 gx-4 gy-1 mt-1  justify-content-center">
         <div class="col-2">
           <div class="card style-card container-fluid justify-content-center">
             <img src="./assets/imgs/html-5-svgrepo-com.svg" class="card-img-top m-2" alt="html5">
@@ -82,21 +87,76 @@
             <p class="card-text">Git Source Control</p>
           </div>
         </div>
+      </div> -->
+      <div class="p-3 d-flex justify-content-center container-fluid">
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/html-5-svgrepo-com.svg" class="card-img-top m-2" alt="html5">
+          <p class="card-text">GitHub</p>
+        </div>
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/css-3-svgrepo-com.svg" class="card-img-top m-2 " alt="css">
+          <p class="card-text">Linkedin</p>
+        </div>
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/python-svgrepo-com.svg" class="card-img-top m-2" alt="python">
+          <p class="card-text">Linkedin</p>
+        </div>
       </div>
+      <div class="p-3 d-flex justify-content-center container-fluid">
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/git-svgrepo-com.svg" class="card-img-top m-2" alt="git">
+          <p class="card-text">GitHub</p>
+        </div>
+        <div class="card style-card d-flex justify-content-center mx-3">
+          <img src="./assets/imgs/git-svgrepo-com.svg" class="card-img-top m-2" alt="git">
+          <p class="card-text">Linkedin</p>
+        </div>
+      </div>   
     </div>
 
     <!--Portafolio-->
-    <div  class="mt-5">
-      <h2 class="pt-3 d-flex justify-content-center">Projects</h2>    
-      <div class="style-portafolio d-flex justify-content-center mt-3">
-        <img src="./assets/imgs/higuanas.jpg" class="mx-3 img-fluid rounded" alt="pro_higuana">
-        <img src="./assets/imgs/cuppon.png" class="mx-3 img-fluid rounded" alt="pro_cuppon">
+    
+    <!-- <div class="container-fluid mt-5 style-portafolio">
+      <h2 class="pt-3 text-center">Projects</h2>    
+      <div class="row justify-content-center mt-3">
+        <div class="col-md-6 col-lg-4 mb-3">
+          <img src="./assets/imgs/higuanas.jpg" class="img-fluid rounded" alt="pro_higuana">
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <img src="./assets/imgs/cuppon.png" class="img-fluid rounded" alt="pro_cuppon">
+        </div>
       </div>
-    </div>
-
+    </div> -->
+    
+      <h2 class=" mt-5 text-center">Projects</h2> 
+      <div class="row justify-content-center p-3 mb-4">
+        <div id="carouselExample" class="carousel slide container-fluid style-portafolio">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./assets/imgs/higuanas.jpg" class="d-block w-100 img-fluid rounded" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./assets/imgs/cuppon.png" class="d-block w-100 img-fluid rounded" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
     <!--Experience-->
 
-    <div class="style-experience container-fluid my-5 pb-5 px-4">
+    <div class="style-experience container-fluid mt-5 p-5 px-4">
       <h2 class="d-flex justify-content-center mb-5 pt-3">Experience</h2>
       <div class="experience">
         <img src="./assets/imgs/horizontal-svgrepo-com.svg" alt="viñeta" class="align-top style-vineta">
@@ -142,7 +202,7 @@
     </div>
 
     <!--Footer-->
-    <footer class="text-center text-light p-4 style-footer">
+    <footer class="text-center text-light p-4 style-footer container-fluid">
       <p class="mb-0">Jorge Aranda 2024. Todos los derechos reservados.</p>
     </footer>
 
