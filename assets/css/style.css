@@ -105,3 +105,8 @@ body {
 .style-footer {
     background-color: rgb(24, 24, 24);
 }
+
+a.d-inline-block {
+    align-items: center;
+    text-decoration: none;
+}

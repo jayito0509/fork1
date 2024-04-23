@@ -1,0 +1,48 @@
+.bg-main {
+    background-color: #28a745 ;
+}
+
+.titulo-contenido{
+    font-size: 16px;
+}
+.texto-contenido{
+    font-size:14px;
+}
+
+.titulo-carta{
+    font-size: 20px;
+}
+
+.bg-main img{
+    height: 25px;
+}
+
+.texto-descuento{
+    color: #707070;
+}
+
+.texto-precio{
+    color:#28a745;
+    font-weight: medium;
+}
+
+.bg-formulario{
+    background-color: #28a745 ;
+    
+}
+
+.img-footer{
+    height: 24px;
+}
+
+.texto-light{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    
+}
+
+.texto-medium{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
