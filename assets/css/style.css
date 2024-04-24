@@ -33,9 +33,10 @@ body {
 }
 
 
-.style-about{
+.style-about {
     color: aliceblue;
     text-align: center;
+    font-size: large;
 }
 
 .style-card {
@@ -55,6 +56,7 @@ body {
 .style-experience{
     
     background-color:rgb(24, 24, 24) ;
+    font-size: large;
 }
 
 .experience {
